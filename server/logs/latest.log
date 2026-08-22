@@ -128,3 +128,7 @@
  If this message is repeated a lot, please see https://skinsrestorer.net/firewall[0;39m
 [20:34:56] [User Authenticator #1/INFO]: UUID of player DrCoconutt_ is 81df9855-b8fd-35d8-924c-7d51683b2b18
 [20:34:56] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:56786] logged in with entity id 27 at ([world]198.5, 64.0, 258.5)
+[20:35:33] [Server thread/INFO]: DrCoconutt_ issued server command: /pl
+[20:35:39] [Server thread/INFO]: DrCoconutt_ issued server command: /skins
+[20:35:56] [User Authenticator #1/INFO]: UUID of player itzz_meoww is 2c7affc4-96d9-3207-a71c-348ce74ce386
+[20:35:56] [Server thread/INFO]: itzz_meoww[/127.0.0.1:58802] logged in with entity id 619 at ([world]198.5, 63.0, 249.5)
