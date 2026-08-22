@@ -311,3 +311,7 @@
 [22:54:08] [Server thread/INFO]: [itzzmeoww: Killed DrCoconutt_]
 [22:54:44] [Server thread/INFO]: DrCoconutt_ issued server command: /tp DrCoconutt_ itzzmeoww
 [22:54:44] [Server thread/INFO]: [DrCoconutt_: Teleported DrCoconutt_ to itzzmeoww]
+[22:55:26] [Server thread/INFO]: DrCoconutt_ issued server command: /tp itzzmeoww DrCoconutt_
+[22:55:26] [Server thread/INFO]: [DrCoconutt_: Teleported itzzmeoww to DrCoconutt_]
+[22:55:45] [Server thread/INFO]: itzzmeoww issued server command: /tp drcoconutt_ itzzmeoww
+[22:55:45] [Server thread/INFO]: [itzzmeoww: Teleported DrCoconutt_ to itzzmeoww]
