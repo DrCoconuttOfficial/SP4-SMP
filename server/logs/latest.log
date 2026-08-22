@@ -149,3 +149,7 @@
 [22:36:49] [Server thread/INFO]: DrCoconutt_ left the game
 [22:37:09] [User Authenticator #2/INFO]: UUID of player DrCoconutt_ is 81df9855-b8fd-35d8-924c-7d51683b2b18
 [22:37:09] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:50494] logged in with entity id 5973 at ([world]74.12607341284972, 63.0, 117.43255201435373)
+[22:37:26] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode spectator
+[22:37:26] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Spectator Mode]
+[22:38:02] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode creative
+[22:38:02] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Creative Mode]
