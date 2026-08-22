@@ -1,0 +1,6 @@
+# SP4DayClock - Dane zapisu licznika dni
+custom-day: 1
+last-world-days:
+  world: 2
+  world_nether: 1
+  world_the_end: 1

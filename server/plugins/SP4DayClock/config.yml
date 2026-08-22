@@ -1,0 +1,70 @@
+# =================================================================== #
+#                  SP4DayClock - Konfiguracja Pluginu                 #
+#                   Dla Paper / Spigot Minecraft 1.12.2               #
+# =================================================================== #
+
+# Czy plugin jest wlaczony
+enabled: true
+
+# Prefiks serwera uzywany w wiadomosciach
+prefix: "&8[&e&lSP4 SMP&8] &r"
+
+# Konfiguracja paska ActionBar
+actionbar:
+  enabled: true
+  # Jak czesto odswiezac pasek (w tickach: 20 tickow = 1 sekunda)
+  update-interval-ticks: 20
+  # Format wyswietlanego tekstu w actionbarze (bez polskich znakow)
+  # Dostepne zmienne:
+  # {DAY}     - Aktualny numer dnia (np. 1, 2, 3...)
+  # {TIME}    - Aktualna godzina w grze w formacie HH:mm (np. 06:00, 14:35)
+  # {ONLINE}  - Liczba graczy online
+  # {MAX}     - Maksymalna liczba slotow serwera
+  # {WORLD}   - Nazwa aktualnego swiata
+  format: "&8[&e&lSP4 SMP&8] &7Dzien: &a{DAY} &8| &7Godzina: &e{TIME}"
+
+# Konfiguracja powiadomienia na srodku ekranu (Title / Subtitle) o nowym dniu
+day-change-title:
+  enabled: true
+  # Tytul na srodku ekranu
+  # Zmienne: {OLD_DAY} - poprzedni dzien, {NEW_DAY} - nowy dzien
+  title: "&6&lDZIEN {NEW_DAY}"
+  # Podtytul (Subtitle) ze zmiana dnia: np. Dzien 1 -> Dzien 2
+  subtitle: "&eDzien {OLD_DAY} &7-> &aDzien {NEW_DAY}"
+  fade-in-ticks: 15
+  stay-ticks: 60
+  fade-out-ticks: 20
+  # Czy wysylac wiadomosc o nowym dniu na czacie
+  send-chat-message: true
+  chat-message: "&aNadszedl nowy dzien! &7(Dzien &e{OLD_DAY} &7-> Dzien &a{NEW_DAY}&7)"
+  # Dzwiek przy zmianie dnia
+  play-sound: true
+  sound: "UI_TOAST_CHALLENGE_COMPLETE"
+  volume: 1.0
+  pitch: 1.0
+
+# Sposob liczenia dni:
+# WORLD_TIME - liczy dni na podstawie naturalnego czasu swiata (world.getFullTime() / 24000)
+# CUSTOM     - uzywa wlasnego licznika dni zapisanego w pliku data.yml (mozliwosc ustawienia komenda /sp4 setday)
+day-counter-mode: "CUSTOM"
+
+# Domyslny poczatkowy numer dnia (dla trybu CUSTOM)
+initial-day: 1
+
+# Wiadomosci komend (bez polskich znakow)
+messages:
+  toggle-on: "&aWlaczono wyswietlanie paska czasu i dnia w ActionBarze!"
+  toggle-off: "&cWylaczono wyswietlanie paska czasu i dnia w ActionBarze!"
+  day-set: "&aPomyslnie ustawiono dzien na: &e{DAY}&a!"
+  day-added: "&aDodano &e{AMOUNT} &adni. Obecny dzien to: &e{DAY}&a!"
+  invalid-number: "&cPodano nieprawidlowa liczbe!"
+  reloaded: "&aKonfiguracja SP4DayClock zostala pomyslnie przeladowana!"
+  no-permission: "&cBrak uprawnien do wykonania tej komendy!"
+  help:
+    - "&8&m--------------------------------------------------"
+    - "&e&lSP4 SMP &7- System czasu i dni:"
+    - "  &a/sp4 toggle &7- Wlacza/wylacza pasek ActionBar dla Ciebie"
+    - "  &a/sp4 setday <liczba> &7- Ustawia numer dnia (Admin)"
+    - "  &a/sp4 addday <liczba> &7- Dodaje dni do licznika (Admin)"
+    - "  &a/sp4 reload &7- Przeladowuje konfiguracje (Admin)"
+    - "&8&m--------------------------------------------------"
