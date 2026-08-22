@@ -140,3 +140,8 @@
 [20:36:52] [Server thread/INFO]: DrCoconutt_ issued server command: /timber DrCoconutt_
 [20:36:55] [Server thread/INFO]: DrCoconutt_ issued server command: /timber DrCoconutt_
 [20:37:02] [Server thread/INFO]: itzz_meoww issued server command: /skin
+[20:37:06] [Server thread/INFO]: itzz_meoww issued server command: /skins
+[20:37:17] [Server thread/INFO]: itzz_meoww lost connection: Disconnected
+[20:37:17] [Server thread/INFO]: itzz_meoww left the game
+[20:37:26] [User Authenticator #2/INFO]: UUID of player itzz_meoww is 2c7affc4-96d9-3207-a71c-348ce74ce386
+[20:37:26] [Server thread/INFO]: itzz_meoww[/127.0.0.1:32926] logged in with entity id 819 at ([world]111.96531129748908, 67.0, 154.08098615088596)
