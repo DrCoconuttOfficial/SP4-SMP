@@ -1,0 +1,92 @@
+# =================================================================== #
+#                  TreeChopper - Konfiguracja Pluginu                 #
+#                   Dla Paper / Spigot Minecraft 1.12.2               #
+# =================================================================== #
+
+# Czy plugin ma byc aktywny
+enabled: true
+
+# Wymaganie trzymania siekiery w rece
+require-axe: true
+
+# Lista dozwolonych siekier (Materials z wersji 1.12.2)
+allowed-axes:
+  - DIAMOND_AXE
+  - IRON_AXE
+  - GOLD_AXE
+  - STONE_AXE
+  - WOOD_AXE
+
+# Trwalosc narzedzia (durability):
+# Czy niszczenie kazdego pnia ma zuzywac trwalosc siekiery
+damage-axe: true
+
+# Czy brac pod uwage zaklecie Niezniszczalnosc (Unbreaking / DURABILITY)
+respect-unbreaking: true
+
+# Czy przerwac scinanie, jesli siekiera ulegnie zniszczeniu (zeby nie niszczyc dalej bez narzedzia)
+stop-if-axe-breaks: true
+
+# Tryb klawisza SHIFT (skradania sie):
+# NONE             - scinanie dziala zawsze
+# REQUIRE_SNEAK    - scinanie calego drzewa dziala TYLKO gdy trzymasz SHIFT
+# DISABLE_ON_SNEAK - scinanie dziala domyslnie, ale trzymanie SHIFT pozwala sciac TYLKO 1 pojedynczy blok (zalecane)
+sneak-mode: DISABLE_ON_SNEAK
+
+# Bezpieczenstwo budowli:
+# Czy sprawdzac obecnosc lisci nad/wokol pnia?
+# Wlaczenie tej opcji zapobiega przypadkowemu zniszczeniu drewnianych domow/budowli graczy!
+require-leaves-check: true
+
+# Minimalna liczba lisci wokol drzewa, aby uznac je za naturalne drzewo
+min-leaves-required: 3
+
+# Maksymalny promien szukania lisci od pni drzewa
+leaf-search-radius: 4
+
+# Czy niszczyc rowniez liscie nalezace do drzewa
+break-leaves: true
+
+# Czy liscie maja wypadac naturalnie (drop jablek, sadzonek)
+leaves-drop-naturally: true
+
+# Opoznienie w tickach miedzy niszczeniem kolejnych warstw lisci (0 = natychmiast, 1-2 = plynny efekt)
+leaf-break-delay-ticks: 1
+
+# Czy scinac tylko pnie tego samego gatunku drewna (np. tylko dab do debu)
+match-wood-type: true
+
+# Maksymalna liczba pni do zniszczenia w jednym drzewie (ochrona przed lagami na gigantycznych drzewach)
+max-logs: 250
+
+# Maksymalna liczba lisci do zniszczenia
+max-leaves: 400
+
+# Gdzie maja wypadac przedmioty:
+# true  - drop trafia bezposrednio pod nogi gracza
+# false - drop wypada w miejscu kazdego scietego bloku
+drop-items-at-player: false
+
+# Efekty dzwiekowe i wizualne
+effects:
+  play-sound: true
+  sound-type: BLOCK_WOOD_BREAK
+  sound-volume: 1.0
+  sound-pitch: 0.8
+  play-particles: true
+
+# Wiadomosci wysylane do gracza (obsluga kolorow za pomoca '&')
+messages:
+  prefix: "&8[&2Tree&aChopper&8] &r"
+  toggle-on: "&aAutomatyczne scinanie drzew zostalo &2WLACZONA&a."
+  toggle-off: "&cAutomatyczne scinanie drzew zostalo &4WYLACZONA&c."
+  no-permission: "&cBrak uprawnien do wykonania tej komendy!"
+  reloaded: "&aKonfiguracja pluginu zostala pomyslnie przeladowana!"
+  axe-broken: "&cTwoja siekiera ulegla zniszczeniu!"
+  help:
+    - "&8&m----------------------------------------"
+    - "&2Tree&aChopper &7- Pomoc pluginu:"
+    - "  &a/tc toggle &7- Wlacza/wylacza scinanie dla Ciebie"
+    - "  &a/tc reload &7- Przeladowuje konfiguracje (Admin)"
+    - "  &a/tc info   &7- Informacje o pluginie"
+    - "&8&m----------------------------------------"
