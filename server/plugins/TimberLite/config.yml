@@ -1,0 +1,7 @@
+# TimberLite Configuration
+
+# Require the player to be sneaking to fell the tree?
+require-sneak: true
+
+# Maximum number of blocks to break in a single tree (prevents lag with huge trees/jungles)
+max-blocks: 256
