@@ -317,3 +317,12 @@
 [22:55:45] [Server thread/INFO]: [itzzmeoww: Teleported DrCoconutt_ to itzzmeoww]
 [22:56:23] [Server thread/INFO]: itzzmeoww issued server command: /gimmiop
 [22:56:38] [Server thread/INFO]: itzzmeoww issued server command: /gimmeop
+[22:59:28] [Async Chat Thread - #0/INFO]: <DrCoconutt_> gejmod survival itzzmeow
+[22:59:38] [Server thread/INFO]: DrCoconutt_ issued server command: /msg itzzmeoww gejmod survival itzzmeoww
+[22:59:44] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode survival itzzmeoww
+[22:59:44] [Server thread/INFO]: [DrCoconutt_: Set itzzmeoww's game mode to Survival Mode]
+[22:59:45] [Server thread/INFO]: itzzmeoww issued server command: /gamemode creative
+[22:59:45] [Server thread/INFO]: [itzzmeoww: Set own game mode to Creative Mode]
+[23:00:04] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode survival
+[23:00:04] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Survival Mode]
+[23:00:15] [Server thread/INFO]: DrCoconutt_ fell from a high place
