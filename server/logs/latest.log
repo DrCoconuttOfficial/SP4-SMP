@@ -115,3 +115,7 @@
 [21:11:55] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:47812] logged in with entity id 55 at ([world]114.33790965064878, 67.0, 170.24774258811203)
 [21:13:11] [Server thread/INFO]: DrCoconutt_ lost connection: Disconnected
 [21:13:11] [Server thread/INFO]: DrCoconutt_ left the game
+[21:17:35] [User Authenticator #2/INFO]: UUID of player itzzmeoww is 376884d2-7d9d-358e-93ce-fc5b533161cf
+[21:17:35] [Server thread/INFO]: itzzmeoww[/127.0.0.1:47654] logged in with entity id 187 at ([world]199.5, 64.0, 253.5)
+[21:17:42] [User Authenticator #2/INFO]: UUID of player DrCoconutt_ is 81df9855-b8fd-35d8-924c-7d51683b2b18
+[21:17:42] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:47660] logged in with entity id 196 at ([world]138.63757945176545, 77.0, 83.98065856734365)
