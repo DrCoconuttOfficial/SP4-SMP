@@ -304,3 +304,10 @@
 [22:47:36] [Server thread/INFO]: DrCoconutt_ issued server command: /summon minecraft:tnt_minecart
 [22:47:36] [Server thread/INFO]: [DrCoconutt_: Object successfully summoned]
 [22:47:36] [Server thread/INFO]: DrCoconutt_ issued server command: /
+[22:54:06] [Server thread/INFO]: itzzmeoww issued server command: /kill drcoconutt_\
+[22:54:06] [Server thread/INFO]: [itzzmeoww: Entity 'drcoconutt_\' cannot be found]
+[22:54:08] [Server thread/INFO]: itzzmeoww issued server command: /kill drcoconutt_
+[22:54:08] [Server thread/INFO]: DrCoconutt_ fell out of the world
+[22:54:08] [Server thread/INFO]: [itzzmeoww: Killed DrCoconutt_]
+[22:54:44] [Server thread/INFO]: DrCoconutt_ issued server command: /tp DrCoconutt_ itzzmeoww
+[22:54:44] [Server thread/INFO]: [DrCoconutt_: Teleported DrCoconutt_ to itzzmeoww]
