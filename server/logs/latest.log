@@ -404,3 +404,17 @@
 [23:04:15] [Server thread/INFO]: [itzzmeoww: Teleported DrCoconutt_ to itzzmeoww]
 [23:04:25] [Server thread/INFO]: itzzmeoww issued server command: /tp drcoconutt_ itzzmeoww
 [23:04:25] [Server thread/INFO]: [itzzmeoww: Teleported DrCoconutt_ to itzzmeoww]
+[23:04:30] [Server thread/INFO]: itzzmeoww issued server command: /tp drcoconutt_ itzzmeoww
+[23:04:30] [Server thread/INFO]: [itzzmeoww: Teleported DrCoconutt_ to itzzmeoww]
+[23:04:35] [Server thread/INFO]: DrCoconutt_ was shot by itzzmeoww
+[23:04:39] [Server thread/INFO]: itzzmeoww issued server command: /tp drcoconutt_ itzzmeoww
+[23:04:46] [Server thread/INFO]: itzzmeoww issued server command: /ban drcocnutt_
+[23:04:47] [Server thread/INFO]: [itzzmeoww: Banned player drcocnutt_]
+[23:05:11] [Server thread/INFO]: itzzmeoww issued server command: /ban drcoconutt_
+[23:05:11] [Server thread/INFO]: DrCoconutt_ lost connection: You are banned from this server.
+[23:05:11] [Server thread/INFO]: DrCoconutt_ left the game
+[23:05:11] [Server thread/INFO]: [itzzmeoww: Banned player drcoconutt_]
+[23:05:11] [Server thread/WARN]: handleDisconnection() called twice
+[23:05:26] [Server thread/INFO]: itzzmeoww issued server command: /unban drcoconutt_
+[23:05:31] [Server thread/INFO]: itzzmeoww issued server command: /pardon drcoconutt_
+[23:05:31] [Server thread/INFO]: [itzzmeoww: Unbanned player drcoconutt_]
