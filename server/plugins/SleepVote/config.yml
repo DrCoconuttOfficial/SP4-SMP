@@ -80,7 +80,7 @@ sounds:
 
 # Wiadomosci na czacie
 messages:
-  prefix: "&8[&6Sleep&eVote&8] &r"
+  prefix: "&8[&6SP4&eSMP&8] &r"
   vote-started:
     - "&8&m--------------------------------------------------"
     - "&eGracz &6{PLAYER} &epolozyl sie spac! Rozpoczeto glosowanie:"
@@ -108,7 +108,7 @@ messages:
   no-permission: "&cBrak uprawnien do tej komendy!"
   help:
     - "&8&m--------------------------------------------------"
-    - "&6Sleep&eVote &7- Pomoc pluginu:"
+    - "&6SP4 SMP &7- Pomoc pluginu:"
     - "  &a/sv yes  &7(lub &a/spij tak&7) - Glosuj na TAK"
     - "  &c/sv no   &7(lub &c/spij nie&7) - Glosuj na NIE"
     - "  &e/sv status &7- Stan obecnego glosowania"
