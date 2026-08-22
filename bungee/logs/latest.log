@@ -77,3 +77,7 @@
 [20:53:27] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:56418]: Origin header is https://sp4smp.drcoconutt-personal.workers.dev
 [20:53:27] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] ___ (/[0:0:0:0:0:0:0:1]:56418) has connected
 [20:53:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ___ -> lobby has connected
+[20:54:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ___ (/[0:0:0:0:0:0:0:1]:56418) has disconnected
+[20:54:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ___ -> lobby has disconnected
+[20:54:56] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DrCoconutt_ (/[0:0:0:0:0:0:0:1]:33956) has disconnected
+[20:54:56] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DrCoconutt_ -> lobby has disconnected
