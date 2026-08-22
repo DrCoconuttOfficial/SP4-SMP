@@ -141,3 +141,5 @@
 [22:26:37] [Server thread/INFO]: itzzmeoww issued server command: /sleepvote yes
 [22:26:46] [Server thread/INFO]: DrCoconutt_ issued server command: /time set night
 [22:26:46] [Server thread/INFO]: [DrCoconutt_: Set the time to 13000]
+[22:27:11] [Server thread/INFO]: DrCoconutt_ issued server command: /time set day
+[22:27:11] [Server thread/INFO]: [DrCoconutt_: Set the time to 1000]
