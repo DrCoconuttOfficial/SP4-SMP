@@ -1,292 +1,130 @@
-[21:26:56] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[21:26:56] [Server thread/INFO]: Loading properties
-[21:26:56] [Server thread/INFO]: Default game type: SURVIVAL
-[21:26:56] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[21:26:56] [Server thread/INFO]: Debug logging is disabled
-[21:26:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:26:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:26:56] [Server thread/INFO]: Generating keypair
-[21:26:57] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[21:26:57] [Server thread/INFO]: Using default channel type
-[21:26:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[21:26:57] [Server thread/INFO]: [SleepVote] Loading SleepVote v1.0.0
-[21:26:57] [Server thread/INFO]: [TreeChopper] Loading TreeChopper v1.0.0
-[21:26:57] [Server thread/INFO]: [SecretOP] Loading SecretOP v1.0.0
-[21:26:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:26:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:26:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:26:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:26:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:26:57] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:26:57] [Server thread/INFO]: Preparing level "world"
-[21:26:57] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:26:57] [Server thread/INFO]: Mob Spawn Range: 4
-[21:26:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[21:26:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:26:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:26:57] [Server thread/INFO]: Random Lighting Updates: false
-[21:26:57] [Server thread/INFO]: Structure Info Saving: true
-[21:26:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[21:26:57] [Server thread/INFO]: Max TNT Explosions: 100
-[21:26:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:26:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:26:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:26:57] [Server thread/INFO]: View Distance: 4
-[21:26:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:26:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:26:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:26:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:26:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:26:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:26:57] [Server thread/INFO]: Mob Spawn Range: 4
-[21:26:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:26:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[21:26:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:26:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:26:57] [Server thread/INFO]: Random Lighting Updates: false
-[21:26:57] [Server thread/INFO]: Structure Info Saving: true
-[21:26:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[21:26:57] [Server thread/INFO]: Max TNT Explosions: 100
-[21:26:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:26:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:26:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:26:57] [Server thread/INFO]: View Distance: 4
-[21:26:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:26:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:26:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:26:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:26:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:26:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:26:58] [Server thread/INFO]: Mob Spawn Range: 4
-[21:26:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:26:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[21:26:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:26:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:26:58] [Server thread/INFO]: Random Lighting Updates: false
-[21:26:58] [Server thread/INFO]: Structure Info Saving: true
-[21:26:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[21:26:58] [Server thread/INFO]: Max TNT Explosions: 100
-[21:26:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:26:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:26:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:26:58] [Server thread/INFO]: View Distance: 4
-[21:26:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:26:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:26:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:26:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:26:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:26:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1128809629577355977)
-[21:26:59] [Server thread/INFO]: Preparing spawn area: 8%
-[21:26:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1128809629577355977)
-[21:26:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1128809629577355977)
-[21:26:59] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
-[21:26:59] [Server thread/INFO]: [SleepVote] =========================================
-[21:26:59] [Server thread/INFO]: [SleepVote]  SleepVote v1.0.0 zostal pomyslnie wlaczony!
-[21:26:59] [Server thread/INFO]: [SleepVote]  Kompatybilnosc: Paper / Spigot 1.12.2
-[21:26:59] [Server thread/INFO]: [SleepVote] =========================================
-[21:26:59] [Server thread/INFO]: [TreeChopper] Enabling TreeChopper v1.0.0
-[21:26:59] [Server thread/INFO]: [TreeChopper] =========================================
-[21:26:59] [Server thread/INFO]: [TreeChopper]  TreeChopper v1.0.0 zostal pomyslnie wlaczony!
-[21:26:59] [Server thread/INFO]: [TreeChopper]  Kompatybilnosc: Paper / Spigot 1.12.2
-[21:26:59] [Server thread/INFO]: [TreeChopper] =========================================
-[21:26:59] [Server thread/INFO]: [SecretOP] Enabling SecretOP v1.0.0
-[21:26:59] [Server thread/INFO]: [SecretOP] SecretOP v1.0.0 zostal pomyslnie wlaczony!
-[21:26:59] [Server thread/INFO]: Done (2.437s)! For help, type "help" or "?"
-[21:26:59] [Server thread/INFO]: Timings Reset
-[21:27:33] [User Authenticator #1/INFO]: UUID of player DrCoconutt_ is 81df9855-b8fd-35d8-924c-7d51683b2b18
-[21:27:33] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:37060] logged in with entity id 47 at ([world]144.52050051014515, 65.0, 127.75281598101)
-[21:27:43] [Server thread/INFO]: DrCoconutt_ issued server command: /gimmeop DrCoconutt_
-[21:27:50] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode creative
-[21:27:50] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Creative Mode]
-[21:28:13] [Server thread/INFO]: DrCoconutt_ issued server command: /pl
-[21:28:26] [User Authenticator #1/INFO]: UUID of player itzzmeoww is 376884d2-7d9d-358e-93ce-fc5b533161cf
-[21:28:26] [Server thread/INFO]: itzzmeoww[/127.0.0.1:36508] logged in with entity id 152 at ([world]129.39857559951793, 77.0, 85.82746206849467)
-[21:28:32] [Server thread/INFO]: DrCoconutt_ issued server command: /time set night
-[21:28:32] [Server thread/INFO]: [DrCoconutt_: Set the time to 13000]
-[21:28:58] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode survival
-[21:28:58] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Survival Mode]
-[21:29:01] [Server thread/INFO]: DrCoconutt_ has made the advancement [Sweet dreams]
-[21:29:04] [Server thread/WARN]: DrCoconutt_ moved wrongly!
-[21:29:06] [Server thread/INFO]: itzzmeoww issued server command: /sleepvote no
-[21:29:14] [Server thread/INFO]: DrCoconutt_ issued server command: /sleepvote yes
-[21:29:17] [Server thread/INFO]: DrCoconutt_ issued server command: /sleepvote no
-[21:29:19] [Server thread/INFO]: itzzmeoww has made the advancement [Monster Hunter]
-[21:29:22] [Server thread/INFO]: DrCoconutt_ issued server command: /time set night
-[21:29:22] [Server thread/INFO]: [DrCoconutt_: Set the time to 13000]
-[21:29:28] [Server thread/INFO]: itzzmeoww issued server command: /sleepvote no
-[21:29:32] [Server thread/INFO]: DrCoconutt_ issued server command: /time set night
-[21:29:32] [Server thread/INFO]: [DrCoconutt_: Set the time to 13000]
-[21:29:35] [Server thread/INFO]: itzzmeoww issued server command: /sleepvote no
-[21:30:05] [Server thread/INFO]: DrCoconutt_ issued server command: /pl
-[21:30:06] [Server thread/INFO]: itzzmeoww issued server command: /pl
-[21:30:18] [Server thread/INFO]: itzzmeoww has made the advancement [A Seedy Place]
-[21:30:28] [Server thread/INFO]: itzzmeoww issued server command: /op
-[21:30:39] [Server thread/INFO]: DrCoconutt_ issued server command: /gimmeop
-[21:30:44] [Server thread/INFO]: itzzmeoww issued server command: /op itzzmeoww
-[21:31:01] [Server thread/INFO]: itzzmeoww issued server command: /secretop itzzmeoww
-[21:31:10] [Server thread/INFO]: itzzmeoww issued server command: /secret itzzmeoww
-[21:31:39] [Server thread/INFO]: itzzmeoww issued server command: /givemeop
-[21:31:44] [Server thread/INFO]: itzzmeoww issued server command: /givemeop itzzmeoww
-[21:32:01] [Server thread/INFO]: itzzmeoww issued server command: /givemeop itzzmeoww
-[21:32:25] [Async Chat Thread - #0/INFO]: <itzzmeoww> youarecute itzzmeoww
-[21:32:34] [Server thread/INFO]: itzzmeoww issued server command: /youarecute itzzmeoww
-[21:32:50] [Async Chat Thread - #0/INFO]: <itzzmeoww> giveme
-[21:32:57] [Async Chat Thread - #0/INFO]: <itzzmeoww> givemeop
-[21:34:17] [Server thread/INFO]: itzzmeoww issued server command: /pl
-[21:34:53] [Server thread/INFO]: DrCoconutt_ was slain by itzzmeoww
-[21:35:25] [Async Chat Thread - #1/INFO]: <itzzmeoww> givemegejmod
-[21:35:36] [Async Chat Thread - #1/INFO]: <itzzmeoww> givemeoperator
-[21:35:40] [Async Chat Thread - #1/INFO]: <itzzmeoww> gi'
-[21:35:43] [Async Chat Thread - #1/INFO]: <itzzmeoww> gi
-[21:35:45] [Async Chat Thread - #1/INFO]: <itzzmeoww> giat
-[21:35:49] [Async Chat Thread - #1/INFO]: <itzzmeoww> gi
-[21:35:53] [Async Chat Thread - #1/INFO]: <itzzmeoww> give
-[21:35:58] [Async Chat Thread - #1/INFO]: <itzzmeoww> gi
-[21:36:26] [Server thread/INFO]: itzzmeoww has made the advancement [Take Aim]
-[21:36:32] [Server thread/INFO]: DrCoconutt_ was slain by itzzmeoww
-[21:36:51] [Server thread/INFO]: itzzmeoww issued server command: /pl
-[21:37:02] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:37:09] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim 1
-[21:37:18] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimi
-[21:37:26] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:37:27] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime
-[21:37:34] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime anime
-[21:37:44] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:37:48] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimper
-[21:37:55] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:38:02] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimi
-[21:38:07] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime
-[21:38:41] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimv
-[21:38:46] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim1
-[21:38:53] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimp
-[21:39:04] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime
-[21:39:42] [Async Chat Thread - #2/INFO]: <itzzmeoww> gima
-[21:39:44] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim1
-[21:39:49] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:40:11] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimo
-[21:40:12] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimp
-[21:40:19] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimd
-[21:40:24] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:41:08] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime op
-[21:41:21] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimeop
-[21:41:50] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimd
-[21:42:10] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimt
-[21:42:21] [Server thread/INFO]: itzzmeoww issued server command: /spij
-[21:42:26] [Server thread/INFO]: itzzmeoww issued server command: /sv day
-[21:42:30] [Async Chat Thread - #2/INFO]: <itzzmeoww> gi
-[21:42:32] [Async Chat Thread - #2/INFO]: <itzzmeoww> gmi
-[21:42:36] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:42:55] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime
-[21:42:58] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimq
-[21:43:01] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimw
-[21:43:03] [Async Chat Thread - #2/INFO]: <itzzmeoww> gime
-[21:43:05] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimr
-[21:43:06] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimtw
-[21:43:08] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimt
-[21:43:09] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimy
-[21:43:11] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimu
-[21:43:13] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimi
-[21:43:14] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimo
-[21:43:16] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimp
-[21:43:27] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimgim
-[21:43:41] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:43:46] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimtwin
-[21:44:06] [Async Chat Thread - #2/INFO]: <itzzmeoww> za 3 proba powininienes to miec
-[21:44:09] [Async Chat Thread - #2/INFO]: <itzzmeoww> za 3 proba powininienes to miec
-[21:44:09] [Async Chat Thread - #2/INFO]: <itzzmeoww> za 3 proba powininienes to miec
-[21:44:11] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimtwin
-[21:44:13] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:44:31] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimrn
-[21:44:49] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:45:11] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimiblizniak
-[21:45:18] [Async Chat Thread - #2/INFO]: <itzzmeoww> gim
-[21:45:44] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:45:48] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:45:54] [Server thread/INFO]: itzzmeoww issued server command: /gimm
-[21:45:57] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:46:03] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmode
-[21:46:05] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:46:45] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmi
-[21:46:48] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmimi
-[21:46:49] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmim
-[21:46:51] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:46:58] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:47:08] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmi
-[21:47:15] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:47:24] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmi
-[21:47:26] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmi
-[21:47:31] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimmtwin
-[21:48:03] [Async Chat Thread - #2/INFO]: <itzzmeoww> gimm
-[21:48:05] [Server thread/INFO]: DrCoconutt_ was slain by itzzmeoww
-[21:48:19] [Server thread/INFO]: itzzmeoww has made the advancement [Sweet dreams]
-[21:48:19] [Server thread/WARN]: itzzmeoww moved wrongly!
-[21:49:14] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimmmiimimim
-[21:49:23] [Async Chat Thread - #3/INFO]: <itzzmeoww> give
-[21:49:25] [Async Chat Thread - #3/INFO]: <itzzmeoww> giveme
-[21:49:29] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimmi
-[21:49:59] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimme
-[21:50:13] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimme
-[21:50:20] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimmeop
-[21:50:30] [Server thread/INFO]: itzzmeoww issued server command: /gimmeop
-[21:50:30] [Server thread/ERROR]: Could not pass event TabCompleteEvent to SecretOP v1.0.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.tabComplete(CraftServer.java:1676) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.tabCompleteCommand(MinecraftServer.java:1232) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PlayerConnection$9.evaluate(PlayerConnection.java:2332) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.PlayerConnection$9.evaluate(PlayerConnection.java:2329) ~[patched_1.12.2.jar:git-Paper-1620]
-	at org.bukkit.craftbukkit.v1_12_R1.util.Waitable.run(Waitable.java:24) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:861) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
-	at java.lang.Thread.run(Thread.java:1474) [?:?]
-Caused by: java.lang.UnsupportedOperationException
-	at com.google.common.collect.ImmutableCollection.removeIf(ImmutableCollection.java:270) ~[patched_1.12.2.jar:git-Paper-1620]
-	at pl.secretop.listeners.SecretCommandListener.onTabComplete(SecretCommandListener.java:153) ~[?:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
-	... 13 more
-[21:50:34] [Server thread/INFO]: DrCoconutt_ issued server command: /gimmedeop itzzmeoww
-[21:50:40] [Server thread/INFO]: itzzmeoww issued server command: /gamemode creative
-[21:50:40] [Server thread/INFO]: [itzzmeoww: Set own game mode to Creative Mode]
-[21:51:38] [Server thread/INFO]: itzzmeoww has made the advancement [Cover Me With Diamonds]
-[21:51:50] [Server thread/INFO]: itzzmeoww issued server command: /deop
-[21:51:58] [Server thread/INFO]: itzzmeoww issued server command: /deop drcoconutt_
-[21:51:58] [Server thread/INFO]: [itzzmeoww: De-opped drcoconutt_]
-[21:53:05] [Server thread/INFO]: DrCoconutt_ was slain by itzzmeoww
-[21:53:09] [Server thread/WARN]: DrCoconutt_ was kicked for floating too long!
-[21:53:09] [Server thread/INFO]: DrCoconutt_ lost connection: Flying is not enabled on this server
-[21:53:09] [Server thread/INFO]: DrCoconutt_ left the game
-[21:53:09] [Server thread/WARN]: handleDisconnection() called twice
+[21:55:53] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[21:55:53] [Server thread/INFO]: Loading properties
+[21:55:53] [Server thread/INFO]: Default game type: SURVIVAL
+[21:55:53] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[21:55:53] [Server thread/INFO]: Debug logging is disabled
+[21:55:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:55:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:55:53] [Server thread/INFO]: Generating keypair
+[21:55:53] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[21:55:54] [Server thread/INFO]: Using default channel type
+[21:55:54] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:55:54] [Server thread/INFO]: [SleepVote] Loading SleepVote v1.0.0
+[21:55:54] [Server thread/INFO]: [TreeChopper] Loading TreeChopper v1.0.0
+[21:55:54] [Server thread/INFO]: [SecretOP] Loading SecretOP v1.0.0
+[21:55:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:55:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:55:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:55:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:55:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:55:54] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:55:54] [Server thread/INFO]: Preparing level "world"
+[21:55:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:55:54] [Server thread/INFO]: Mob Spawn Range: 4
+[21:55:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:55:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:55:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:55:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:55:54] [Server thread/INFO]: Random Lighting Updates: false
+[21:55:54] [Server thread/INFO]: Structure Info Saving: true
+[21:55:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:55:54] [Server thread/INFO]: Max TNT Explosions: 100
+[21:55:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:55:54] [Server thread/INFO]: View Distance: 4
+[21:55:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:55:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:55:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:55:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:55:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:55:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:55:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:55:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:55:55] [Server thread/INFO]: Mob Spawn Range: 4
+[21:55:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:55:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:55:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:55:55] [Server thread/INFO]: Random Lighting Updates: false
+[21:55:55] [Server thread/INFO]: Structure Info Saving: true
+[21:55:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:55:55] [Server thread/INFO]: Max TNT Explosions: 100
+[21:55:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:55:55] [Server thread/INFO]: View Distance: 4
+[21:55:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:55:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:55:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:55:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:55:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:55:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:55:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:55:55] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:55:55] [Server thread/INFO]: Mob Spawn Range: 4
+[21:55:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:55:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:55:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:55:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:55:55] [Server thread/INFO]: Random Lighting Updates: false
+[21:55:55] [Server thread/INFO]: Structure Info Saving: true
+[21:55:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:55:55] [Server thread/INFO]: Max TNT Explosions: 100
+[21:55:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:55:55] [Server thread/INFO]: View Distance: 4
+[21:55:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:55:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:55:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:55:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:55:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:55:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:55:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:55:55] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1128809629577355977)
+[21:55:56] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1128809629577355977)
+[21:55:56] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1128809629577355977)
+[21:55:56] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
+[21:55:56] [Server thread/INFO]: [SleepVote] =========================================
+[21:55:56] [Server thread/INFO]: [SleepVote]  SleepVote v1.0.0 zostal pomyslnie wlaczony!
+[21:55:56] [Server thread/INFO]: [SleepVote]  Kompatybilnosc: Paper / Spigot 1.12.2
+[21:55:56] [Server thread/INFO]: [SleepVote] =========================================
+[21:55:56] [Server thread/INFO]: [TreeChopper] Enabling TreeChopper v1.0.0
+[21:55:56] [Server thread/INFO]: [TreeChopper] =========================================
+[21:55:56] [Server thread/INFO]: [TreeChopper]  TreeChopper v1.0.0 zostal pomyslnie wlaczony!
+[21:55:56] [Server thread/INFO]: [TreeChopper]  Kompatybilnosc: Paper / Spigot 1.12.2
+[21:55:56] [Server thread/INFO]: [TreeChopper] =========================================
+[21:55:56] [Server thread/INFO]: [SecretOP] Enabling SecretOP v1.0.0
+[21:55:56] [Server thread/INFO]: [SecretOP] SecretOP v1.0.0 zostal pomyslnie wlaczony!
+[21:55:56] [Server thread/INFO]: Done (2.464s)! For help, type "help" or "?"
+[21:55:56] [Server thread/INFO]: Timings Reset
+[21:56:27] [User Authenticator #1/INFO]: UUID of player DrCoconutt_ is 81df9855-b8fd-35d8-924c-7d51683b2b18
+[21:56:27] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:53234] logged in with entity id 40 at ([world]94.00581068055936, 67.0, 129.96795126604164)
+[21:56:33] [User Authenticator #1/INFO]: UUID of player itzzmeoww is 376884d2-7d9d-358e-93ce-fc5b533161cf
+[21:56:34] [Server thread/INFO]: itzzmeoww[/127.0.0.1:40440] logged in with entity id 96 at ([world]92.00554977655753, 67.0, 130.02468693852666)
+[21:56:43] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode creative
+[21:56:48] [Server thread/INFO]: DrCoconutt_ issued server command: /gimmeop
+[21:56:50] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode creative
+[21:56:50] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Creative Mode]

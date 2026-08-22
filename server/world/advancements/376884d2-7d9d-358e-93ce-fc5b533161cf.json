@@ -300,6 +300,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2026-08-22 21:55:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2026-08-22 21:30:18 +0000"
@@ -539,6 +545,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2026-08-22 21:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2026-08-22 21:55:11 +0000"
     },
     "done": true
   },
