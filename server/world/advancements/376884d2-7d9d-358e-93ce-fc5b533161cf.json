@@ -96,6 +96,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-08-22 21:34:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2026-08-22 21:20:11 +0000"
@@ -204,6 +210,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-08-22 21:36:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2026-08-22 21:18:43 +0000"
@@ -257,6 +269,12 @@
       "has_planks": "2026-08-22 21:18:43 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2026-08-22 21:34:36 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
