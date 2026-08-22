@@ -164,3 +164,5 @@
 [22:02:52] [Server thread/INFO]: [itzzmeoww: There is no such item with name minecraft:commandblock]
 [22:03:10] [Server thread/INFO]: itzzmeoww issued server command: /give itzzmeoww command_block
 [22:03:10] [Server thread/INFO]: [itzzmeoww: Given [Command Block] * 1 to itzzmeoww]
+[22:08:02] [Server thread/INFO]: DrCoconutt_ issued server command: /time set night
+[22:08:02] [Server thread/INFO]: [DrCoconutt_: Set the time to 13000]
