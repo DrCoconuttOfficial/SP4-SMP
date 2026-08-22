@@ -127,3 +127,14 @@
 [21:27:50] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode creative
 [21:27:50] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Creative Mode]
 [21:28:13] [Server thread/INFO]: DrCoconutt_ issued server command: /pl
+[21:28:26] [User Authenticator #1/INFO]: UUID of player itzzmeoww is 376884d2-7d9d-358e-93ce-fc5b533161cf
+[21:28:26] [Server thread/INFO]: itzzmeoww[/127.0.0.1:36508] logged in with entity id 152 at ([world]129.39857559951793, 77.0, 85.82746206849467)
+[21:28:32] [Server thread/INFO]: DrCoconutt_ issued server command: /time set night
+[21:28:32] [Server thread/INFO]: [DrCoconutt_: Set the time to 13000]
+[21:28:58] [Server thread/INFO]: DrCoconutt_ issued server command: /gamemode survival
+[21:28:58] [Server thread/INFO]: [DrCoconutt_: Set own game mode to Survival Mode]
+[21:29:01] [Server thread/INFO]: DrCoconutt_ has made the advancement [Sweet dreams]
+[21:29:04] [Server thread/WARN]: DrCoconutt_ moved wrongly!
+[21:29:06] [Server thread/INFO]: itzzmeoww issued server command: /sleepvote no
+[21:29:14] [Server thread/INFO]: DrCoconutt_ issued server command: /sleepvote yes
+[21:29:17] [Server thread/INFO]: DrCoconutt_ issued server command: /sleepvote no
