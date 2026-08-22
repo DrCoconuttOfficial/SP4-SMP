@@ -253,3 +253,31 @@
 [21:49:25] [Async Chat Thread - #3/INFO]: <itzzmeoww> giveme
 [21:49:29] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimmi
 [21:49:59] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimme
+[21:50:13] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimme
+[21:50:20] [Async Chat Thread - #3/INFO]: <itzzmeoww> gimmeop
+[21:50:30] [Server thread/INFO]: itzzmeoww issued server command: /gimmeop
+[21:50:30] [Server thread/ERROR]: Could not pass event TabCompleteEvent to SecretOP v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.tabComplete(CraftServer.java:1676) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.tabCompleteCommand(MinecraftServer.java:1232) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection$9.evaluate(PlayerConnection.java:2332) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection$9.evaluate(PlayerConnection.java:2329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.util.Waitable.run(Waitable.java:24) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:861) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.lang.UnsupportedOperationException
+	at com.google.common.collect.ImmutableCollection.removeIf(ImmutableCollection.java:270) ~[patched_1.12.2.jar:git-Paper-1620]
+	at pl.secretop.listeners.SecretCommandListener.onTabComplete(SecretCommandListener.java:153) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 13 more
+[21:50:34] [Server thread/INFO]: DrCoconutt_ issued server command: /gimmedeop itzzmeoww
+[21:50:40] [Server thread/INFO]: itzzmeoww issued server command: /gamemode creative
+[21:50:40] [Server thread/INFO]: [itzzmeoww: Set own game mode to Creative Mode]
