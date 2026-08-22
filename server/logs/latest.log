@@ -285,3 +285,8 @@ Caused by: java.lang.UnsupportedOperationException
 [21:51:50] [Server thread/INFO]: itzzmeoww issued server command: /deop
 [21:51:58] [Server thread/INFO]: itzzmeoww issued server command: /deop drcoconutt_
 [21:51:58] [Server thread/INFO]: [itzzmeoww: De-opped drcoconutt_]
+[21:53:05] [Server thread/INFO]: DrCoconutt_ was slain by itzzmeoww
+[21:53:09] [Server thread/WARN]: DrCoconutt_ was kicked for floating too long!
+[21:53:09] [Server thread/INFO]: DrCoconutt_ lost connection: Flying is not enabled on this server
+[21:53:09] [Server thread/INFO]: DrCoconutt_ left the game
+[21:53:09] [Server thread/WARN]: handleDisconnection() called twice
