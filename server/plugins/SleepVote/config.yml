@@ -1,0 +1,118 @@
+# =================================================================== #
+#                   SleepVote - Konfiguracja Pluginu                  #
+#                   Dla Paper / Spigot Minecraft 1.12.2               #
+# =================================================================== #
+
+# Czy plugin jest wlaczony
+enabled: true
+
+# Czy glosowanie ma odbywac sie osobno dla kazdego swiata (true), czy dla calego serwera (false)
+per-world-voting: true
+
+# Czas trwania glosowania w sekundach
+vote-duration-seconds: 15
+
+# Wymagany procent glosow na TAK sposrod wszystkich kwalifikujacych sie graczy (np. 50 = 50%)
+required-percentage: 50
+
+# Minimalna wymagana liczba glosow na TAK (niezaleznie od procentow)
+min-votes-required: 1
+
+# Czy natychmiastowo zrobic dzien, jesli na swiecie jest tylko 1 gracz (bez glosowania)
+instant-skip-if-single-player: true
+
+# Czy wejscie do lozka automatycznie zalicza glos na TAK
+auto-vote-bed-enter: true
+
+# Czas odnowienia (w sekundach) po ODRZUCONYM glosowaniu, zanim ktos znow bedzie mogl rozpoczac glosowanie
+cooldown-after-failed-vote-seconds: 30
+
+# Czy czyscic deszcz i burze po udanym glosowaniu
+clear-weather-on-day: true
+
+# Plynne przewijanie nocy (efekt wschodzacego slonca zamiast naglego skoku czasu)
+smooth-time-animation: true
+# Szybkosc przewijania czasu (ile tickow na tick serwera, 200 = bardzo plynnie ok. 3 sekundy)
+smooth-time-speed: 200
+
+# Nagroda "Wypoczety" dla graczy, ktorzy polozyli sie spac
+well-rested-buff:
+  enabled: true
+  potion-effect: REGENERATION
+  duration-seconds: 5
+  amplifier: 0
+
+# Pasek BossBar na gorze ekranu
+bossbar:
+  enabled: true
+  color: YELLOW
+  style: SOLID
+  title: "&6Glosowanie na dzien: &a{YES} TAK &7| &c{NO} NIE &7({PERCENT}% / {REQUIRED}%) &8- &e{TIME}s"
+
+# Napisy na srodku ekranu (Title / Subtitle)
+titles:
+  enabled: true
+  vote-start:
+    title: "&6&lGLOSOWANIE NA DZIEN"
+    subtitle: "&7Gracz &e{PLAYER} &7poszedl spac!"
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+  vote-success:
+    title: "&a&lDZIEŃ NASTAL!"
+    subtitle: "&7Glosowanie zakonczone sukcesem."
+    fade-in: 10
+    stay: 50
+    fade-out: 10
+  vote-failed:
+    title: "&c&lNOC POZOSTAJE!"
+    subtitle: "&7Glosowanie zostalo odrzucone."
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+
+# Dzwieki (zgodne z 1.12.2)
+sounds:
+  enabled: true
+  vote-start: BLOCK_NOTE_PLING
+  vote-success: UI_TOAST_CHALLENGE_COMPLETE
+  vote-failed: ENTITY_VILLAGER_NO
+
+# Wiadomosci na czacie
+messages:
+  prefix: "&8[&6Sleep&eVote&8] &r"
+  vote-started:
+    - "&8&m--------------------------------------------------"
+    - "&eGracz &6{PLAYER} &epolozyl sie spac! Rozpoczeto glosowanie:"
+    - "&7Czy chcesz pominac noc i zrobic dzien?"
+    - "  {BUTTON_YES}    &7lub    {BUTTON_NO}"
+    - "&7Czas: &e{TIME}s &8| &7Wymagane: &e{REQUIRED}% glosow"
+    - "&8&m--------------------------------------------------"
+  button-yes:
+    text: "&8[&a&l✔ GLOSUJ NA TAK&8]"
+    hover: "&aKliknij, aby zaglosowac za zrobieniem dnia!"
+  button-no:
+    text: "&8[&c&l✖ GLOSUJ NA NIE&8]"
+    hover: "&cKliknij, aby zaglosowac za pozostawieniem nocy!"
+  voted-yes: "&aZaglosowales na &2TAK &a(za pominieciem nocy)!"
+  voted-no: "&cZaglosowales na &4NIE &c(za pozostawieniem nocy)!"
+  already-voted: "&cOddales juz swoj glos w tym glosowaniu!"
+  no-active-vote: "&cW Twoim swiecie nie trwa obecnie zadne glosowanie!"
+  single-player-day: "&aPolorzyles sie spac. Noc zostala pominieta!"
+  vote-passed: "&a&lGlosowanie zakonczone sukcesem! &7Noc zostala pominieta (&a{YES}&7/&e{TOTAL}&7)."
+  vote-failed: "&c&lGlosowanie odrzucone! &7Pozostaje noc (&a{YES}&7/&e{TOTAL}&7)."
+  vote-cancelled: "&cAktywne glosowanie zostalo anulowane przez administratora."
+  vote-cooldown: "&cMusisz odczekac &e{TIME}s &czanim bedzie mozna rozpoczac kolejne glosowanie!"
+  force-day-success: "&aAdministrator wymusil zrobienie dnia!"
+  reloaded: "&aKonfiguracja SleepVote zostala przeladowana!"
+  no-permission: "&cBrak uprawnien do tej komendy!"
+  help:
+    - "&8&m--------------------------------------------------"
+    - "&6Sleep&eVote &7- Pomoc pluginu:"
+    - "  &a/sv yes  &7(lub &a/spij tak&7) - Glosuj na TAK"
+    - "  &c/sv no   &7(lub &c/spij nie&7) - Glosuj na NIE"
+    - "  &e/sv status &7- Stan obecnego glosowania"
+    - "  &6/sv day  &7- Wymuszenie dnia (Admin)"
+    - "  &6/sv cancel &7- Anulowanie glosowania (Admin)"
+    - "  &6/sv reload &7- Przeladowanie konfiguracji (Admin)"
+    - "&8&m--------------------------------------------------"
