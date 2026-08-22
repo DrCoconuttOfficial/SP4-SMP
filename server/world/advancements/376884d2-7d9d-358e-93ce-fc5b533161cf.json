@@ -204,6 +204,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-08-22 21:51:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2026-08-22 21:19:00 +0000"
@@ -410,6 +416,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "zombie": "2026-08-22 21:48:56 +0000",
       "spider": "2026-08-22 21:29:19 +0000"
     },
     "done": false
@@ -434,6 +441,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "mutton": "2026-08-22 21:49:04 +0000",
       "bread": "2026-08-22 21:34:36 +0000"
     },
     "done": false
