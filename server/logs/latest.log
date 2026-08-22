@@ -157,3 +157,10 @@
 [22:01:14] [Server thread/INFO]: itzzmeoww issued server command: /gamemode creative
 [22:01:14] [Server thread/INFO]: [itzzmeoww: Set own game mode to Creative Mode]
 [22:01:15] [Server thread/INFO]: DrCoconutt_ has reached the goal [Sky's the Limit]
+[22:02:36] [Server thread/INFO]: itzzmeoww issued server command: /
+[22:02:45] [Server thread/INFO]: DrCoconutt_ issued server command: /give DrCoconutt_ command_block
+[22:02:45] [Server thread/INFO]: [DrCoconutt_: Given [Command Block] * 1 to DrCoconutt_]
+[22:02:52] [Server thread/INFO]: itzzmeoww issued server command: /give itzzmeoww commandblock
+[22:02:52] [Server thread/INFO]: [itzzmeoww: There is no such item with name minecraft:commandblock]
+[22:03:10] [Server thread/INFO]: itzzmeoww issued server command: /give itzzmeoww command_block
+[22:03:10] [Server thread/INFO]: [itzzmeoww: Given [Command Block] * 1 to itzzmeoww]
