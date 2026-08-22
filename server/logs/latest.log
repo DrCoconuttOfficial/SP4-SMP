@@ -145,3 +145,7 @@
 [22:27:11] [Server thread/INFO]: [DrCoconutt_: Set the time to 1000]
 [22:30:56] [Server thread/INFO]: itzzmeoww has made the advancement [Ice Bucket Challenge]
 [22:33:25] [Server thread/INFO]: DrCoconutt_ has made the advancement [Stone Age]
+[22:36:49] [Server thread/INFO]: DrCoconutt_ lost connection: Disconnected
+[22:36:49] [Server thread/INFO]: DrCoconutt_ left the game
+[22:37:09] [User Authenticator #2/INFO]: UUID of player DrCoconutt_ is 81df9855-b8fd-35d8-924c-7d51683b2b18
+[22:37:09] [Server thread/INFO]: DrCoconutt_[/127.0.0.1:50494] logged in with entity id 5973 at ([world]74.12607341284972, 63.0, 117.43255201435373)

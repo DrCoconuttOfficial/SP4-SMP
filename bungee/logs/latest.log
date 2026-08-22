@@ -41,3 +41,9 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [22:23:50] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:54742]: Origin header is https://sp4smp.drcoconutt-personal.workers.dev
 [22:23:51] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] DrCoconutt_ (/[0:0:0:0:0:0:0:1]:54742) has connected
 [22:23:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DrCoconutt_ -> lobby has connected
+[22:36:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DrCoconutt_ (/[0:0:0:0:0:0:0:1]:54742) has disconnected
+[22:36:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DrCoconutt_ -> lobby has disconnected
+[22:37:08] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:38290]: Connected via websocket
+[22:37:08] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:38290]: Origin header is https://sp4smp.drcoconutt-personal.workers.dev
+[22:37:08] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] DrCoconutt_ (/[0:0:0:0:0:0:0:1]:38290) has connected
+[22:37:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DrCoconutt_ -> lobby has connected
