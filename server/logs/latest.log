@@ -281,3 +281,7 @@ Caused by: java.lang.UnsupportedOperationException
 [21:50:34] [Server thread/INFO]: DrCoconutt_ issued server command: /gimmedeop itzzmeoww
 [21:50:40] [Server thread/INFO]: itzzmeoww issued server command: /gamemode creative
 [21:50:40] [Server thread/INFO]: [itzzmeoww: Set own game mode to Creative Mode]
+[21:51:38] [Server thread/INFO]: itzzmeoww has made the advancement [Cover Me With Diamonds]
+[21:51:50] [Server thread/INFO]: itzzmeoww issued server command: /deop
+[21:51:58] [Server thread/INFO]: itzzmeoww issued server command: /deop drcoconutt_
+[21:51:58] [Server thread/INFO]: [itzzmeoww: De-opped drcoconutt_]
