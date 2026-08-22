@@ -150,3 +150,10 @@
 [20:39:16] [Server thread/INFO]: DrCoconutt_ issued server command: /pl
 [20:39:29] [Server thread/INFO]: itzz_meoww lost connection: Disconnected
 [20:39:29] [Server thread/INFO]: itzz_meoww left the game
+[20:40:17] [User Authenticator #3/INFO]: UUID of player itzz_meoww is 2c7affc4-96d9-3207-a71c-348ce74ce386
+[20:40:17] [Server thread/INFO]: itzz_meoww[/127.0.0.1:46174] logged in with entity id 1222 at ([world]106.31603154406565, 67.0, 164.6511066405871)
+[20:40:45] [Server thread/INFO]: itzz_meoww issued server command: /skin url https://namemc.com/skin/07f7f81d96a01055
+[20:40:51] [Server thread/INFO]: itzz_meoww lost connection: Disconnected
+[20:40:51] [Server thread/INFO]: itzz_meoww left the game
+[20:40:53] [User Authenticator #3/INFO]: UUID of player itzz_meoww is 2c7affc4-96d9-3207-a71c-348ce74ce386
+[20:40:53] [Server thread/INFO]: itzz_meoww[/127.0.0.1:47474] logged in with entity id 1286 at ([world]92.18024086735394, 67.0, 130.13126059250033)
