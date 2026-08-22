@@ -61,3 +61,7 @@
 [20:40:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] itzz_meoww -> lobby has connected
 [20:44:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] itzz_meoww (/[0:0:0:0:0:0:0:1]:38442) has disconnected
 [20:44:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] itzz_meoww -> lobby has disconnected
+[20:44:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:39210]: Connected via websocket
+[20:44:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:39210]: Origin header is https://sp4smp.drcoconutt-personal.workers.dev
+[20:44:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] itzz_meoww (/[0:0:0:0:0:0:0:1]:39210) has connected
+[20:44:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] itzz_meoww -> lobby has connected
