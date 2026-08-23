@@ -68,6 +68,22 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    lootables:
+      auto-replenish: false
+      restrict-player-reloot: true
+      reset-seed-on-fill: true
+      max-refills: -1
+      refresh-min: 12h
+      refresh-max: 2d
+    filter-nbt-data-from-spawn-eggs-and-related: true
+    max-entity-collisions: 8
+    disable-creeper-lingering-effect: false
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: false
+      push-based: false
+    duplicate-uuid-resolver: saferegen
+    duplicate-uuid-saferegen-delete-range: 32
     portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
@@ -82,9 +98,9 @@ world-settings:
     game-mechanics:
       allow-permanent-chunk-loaders: false
       scan-for-legacy-ender-dragon: true
-      disable-end-credits: false
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
+      disable-end-credits: false
       shield-blocking-delay: 5
       disable-chest-cat-detection: false
       disable-unloaded-chunk-enderpearl-exploit: true
@@ -109,24 +125,9 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    lootables:
-      auto-replenish: false
-      restrict-player-reloot: true
-      reset-seed-on-fill: true
-      max-refills: -1
-      refresh-min: 12h
-      refresh-max: 2d
-    filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 8
-    disable-creeper-lingering-effect: false
-    hopper:
-      cooldown-when-full: true
-      disable-move-event: false
-      push-based: false
-    duplicate-uuid-resolver: saferegen
-    duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 4
     auto-save-interval: -1
+    parrots-are-unaffected-by-player-movement: false
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     container-update-tick-rate: 1
@@ -135,7 +136,6 @@ world-settings:
       delay:
         min: 20
         max: 40
-    parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
     elytra-hit-wall-damage: true
     grass-spread-tick-rate: 1
@@ -143,6 +143,9 @@ world-settings:
     bed-search-radius: 1
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
+    disable-teleportation-suffocation-check: false
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -175,14 +178,11 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
-    disable-teleportation-suffocation-check: false
     spawner-nerfed-mobs-should-jump: false
-    allow-leashing-undead-horse: false
     baby-zombie-movement-speed: 0.5
-    all-chunks-are-slime-chunks: false
+    allow-leashing-undead-horse: false
     mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: false
     squid-spawn-height:
       maximum: 63.0
       minimum: 45.0
