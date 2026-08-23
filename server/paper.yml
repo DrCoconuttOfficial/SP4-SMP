@@ -175,17 +175,17 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
     disable-teleportation-suffocation-check: false
     spawner-nerfed-mobs-should-jump: false
+    allow-leashing-undead-horse: false
     baby-zombie-movement-speed: 0.5
     all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 1
-    allow-leashing-undead-horse: false
     squid-spawn-height:
       maximum: 63.0
       minimum: 45.0
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
     enable-old-tnt-cannon-behaviors: false
     verbose: true
     allow-block-location-tab-completion: true
